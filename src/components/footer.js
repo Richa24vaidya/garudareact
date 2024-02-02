@@ -1,4 +1,5 @@
 import React from 'react';
+import newlogobg from '../img/newlogobg.png'
 
 const Footer = () => {
     return (
@@ -7,8 +8,8 @@ const Footer = () => {
     <div className="mx-auto max-w-screen-xl">
         <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
-            <a href="{{ url('/') }}" className="flex items-center">
-    <img src="./assets/img/newlogobg.png" className="mr-3 h-12" alt="Devloops Logo" />
+            <a href="/" className="flex items-center">
+    <img src={newlogobg} className="mr-3 h-12" alt="Devloops Logo" />
     {/* <!-- <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> --> */}
 </a>
 <div className="flex mt-4 py-11 space-x-6 sm:justify-center sm:mt-0">
@@ -35,16 +36,16 @@ const Footer = () => {
                     <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
                     <ul className="text-gray-600 dark:text-gray-400">
                         <li className="mb-4">
-                            <a href="{{ url('/') }}" className="  text-dark hover:underline ;g:text-2xl ">Home</a>
+                            <a href="/" className="  text-dark hover:underline ;g:text-2xl ">Home</a>
                         </li>
                         <li  className="mb-4">
-                            <a href="{{ url('/about') }}" className="   text-dark hover:underline ;g:text-2xl ">About</a>
+                            <a href="/about" className="   text-dark hover:underline ;g:text-2xl ">About</a>
                         </li>
                         <li  className="mb-4">
-                            <a href="{{ url('/blog/index') }}" className="   text-dark hover:underline ;g:text-2xl  py-3">Blog</a>
+                            <a href="/blog" className="   text-dark hover:underline ;g:text-2xl  py-3">Blog</a>
                         </li>
                         <li>
-                            <a href="{{ url('/career') }}" className="   text-dark hover:underline ;g:text-2xl ">Career</a>
+                            <a href="/career" className="   text-dark hover:underline ;g:text-2xl ">Career</a>
                         </li>
                     </ul>
                 </div>
@@ -63,16 +64,16 @@ const Footer = () => {
                     <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">services</h2>
                     <ul className="text-gray-600 dark:text-gray-400">
                         <li className="mb-4">
-                            <a href="{{ url('/product') }}" className="   text-dark hover:underline">Product Development</a>
+                            <a href="/product" className="   text-dark hover:underline">Product Development</a>
                         </li>
                         <li className="mb-4">
-                            <a href="{{ url('/webdev') }}" className="   text-dark hover:underline">web Development</a>
+                            <a href="/web" className="   text-dark hover:underline">web Development</a>
                         </li>
                         <li className="mb-4">
-                            <a href="{{ url('/iot') }}" className="   text-dark hover:underline">Internet Of Things</a>
+                            <a href="/iot" className="   text-dark hover:underline">Internet Of Things</a>
                         </li>
                         <li className="mb-4">
-                            <a href="{{ url('/healthcare') }}" className="   text-dark hover:underline">Healthcare</a>
+                            <a href="/healthcare" className="   text-dark hover:underline">Healthcare</a>
                         </li>
                     </ul>
                 </div>

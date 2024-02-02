@@ -4,7 +4,9 @@ import Company from './company';
 import Missionvission from './missionvission';
 import Team from './team';
 import Testimonial from './testimonial';
-
+import heroImage from '../images/hero.png';
+import devloopsabtcompany from '../img/devloopsabtcompany.jpeg';
+import erp from '../img/erp.png';
 
 
 const Home = () => {
@@ -46,7 +48,7 @@ const Home = () => {
           </div>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img src={"./assets/images/hero.png"} alt="hero image" />
+          <img src={heroImage} alt="hero image" />
         </div>
       </div>
     </section>
@@ -58,7 +60,7 @@ const Home = () => {
     <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
      
         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-             <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex animate-pulse" src="./assets/img/devloopsabtcompany.jpeg" alt="dashboard feature image"/>
+             <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex animate-pulse" src={devloopsabtcompany} alt="dashboard feature image"/>
             <div className="text-gray-500 sm:text-lg dark:text-gray-400">
                 <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">About Company</h2>
                 <p className="mb-8 font-light  lg:text-xl">Harnessing the power of international insights with tailoring solutions to meet your unique needs.</p>
@@ -76,7 +78,7 @@ const Home = () => {
 
 {/* our services */}
 
-<div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16 ml-44">
+<div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16 ml-40">
       <div className="text-gray-500 sm:text-lg dark:text-gray-400">
         {/* Dynamic h2 tag */}
         <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
@@ -117,7 +119,7 @@ const Home = () => {
 
       <img
         className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex animate-pulse"
-        src="./assets/img/erp.png"
+        src={erp}
         alt="feature image 2"   />
     </div>
 

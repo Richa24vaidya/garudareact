@@ -1,4 +1,6 @@
 import React from "react";
+import richa from '../img/richa.JPG'
+import riya1n from '../img/riya1n.jpeg'
 
 const Team =() => {
     return(
@@ -10,7 +12,7 @@ const Team =() => {
         </div> 
         <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <div className="text-center text-gray-500 dark:text-gray-400">
-                <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="./assets/img/riya1n.jpeg" alt="Riya Avatar"/>
+                <img className="mx-auto mb-4 w-36 h-36 rounded-full" src={riya1n} alt="Riya Avatar"/>
                 <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     <a href="/">Riya Vaidya</a>
                 </h3>
@@ -39,7 +41,7 @@ const Team =() => {
                 </ul>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
-                <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="./assets/img/richa.JPG" alt="Helene Avatar"/>
+                <img className="mx-auto mb-4 w-36 h-36 rounded-full" src={richa} alt="Helene Avatar"/>
                 <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     <a href="/">Richa vaidya</a>
                 </h3>
