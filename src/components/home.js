@@ -112,9 +112,9 @@ const Home = () => {
         </ul>
 
         {/* Dynamic paragraph */}
-        <p className="font-dark lg:text-xl">
+        {/* <p className="font-dark lg:text-xl">
         {dynamicContent.description}
-        </p>
+        </p> */}
       </div>
 
       <img
